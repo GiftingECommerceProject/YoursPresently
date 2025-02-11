@@ -1,0 +1,149 @@
+/* .admin-category-page {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+.admin-category-list{
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.admin-category-list h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.admin-category-list button{
+    background-color: #f68b1e;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.admin-category-list button:hover{
+    background-color: #a25d19;
+}
+
+.admin-category-list ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 15px;
+    margin-bottom: 1.5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.admin-category-list ul li span{
+    color: #444;
+}
+
+.admin-bt button{
+    background-color: tomato;
+    color: #fff;
+    border: 8px 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.admin-bt .admin-btn-edit{
+    background-color: #f68b1e;
+} */
+/* .admin-category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: pink;
+}
+
+.admin-category-card {
+    background-color: #333;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 64, 129, 0.5);
+}
+.admin-category-card:hover {
+    background-color: #333;
+   
+}
+.admin-category-card h2 {
+    color: #ff4081;
+}
+
+.add-category-btn {
+    background-color: #ff4081;
+    border: none;
+}
+
+.add-category-btn:hover {
+    background-color: #d81b60;
+}
+
+.category-table {
+    background-color: #444;
+    color: white;
+}
+
+.category-table th {
+    background-color: #ff4081;
+    color: white;
+    text-align: center;
+}
+
+.category-table td {
+    text-align: center;
+} */
+
+.admin-category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: white;
+}
+
+.admin-category-card {
+    background-color: #333;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 64, 129, 0.5);
+}
+.admin-category-card:hover {
+    background-color: #333;
+   
+}
+
+.admin-category-card h2 {
+    color: #ff4081;
+}
+
+.add-category-btn {
+    background-color: #ff4081;
+    border: none;
+}
+
+.add-category-btn:hover {
+    background-color: #d81b60;
+}
+
+.category-table {
+    background-color: #444;
+    color: white;
+}
+
+.category-table th {
+    background-color: #ff4081;
+    color: white;
+    text-align: center;
+}
+
+.category-table td {
+    text-align: center;
+}
+

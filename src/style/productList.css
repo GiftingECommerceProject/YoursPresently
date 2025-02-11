@@ -1,0 +1,198 @@
+/* .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin: 0px 5rem;
+}
+
+.product-item {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    width: 250px;
+}
+
+.product-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translate(-5px);
+}
+
+.product-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.product-item h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
+
+.product-item p {
+    color: #777;
+    font-size: 0.9em;
+    margin: 10px 20px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.product-item span {
+    color: #333;
+    font-size: 1.1em;
+    margin: 10px 0px;
+    display: block;
+}
+
+.product-item button {
+    background-color: #f68b1e;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 10px 20px;
+    transition: background-color 0.3 ease;
+}
+
+.product-item button:hover {
+    background-color: #633d17;
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.quantity-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.quantity-controls button{
+    background-color: #f68b1e;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3 ease;
+
+}
+.quantity-controls button:hover{
+    background-color: #633d17;
+
+}
+.quantity-controls span{
+    margin: 0 10px;
+    font-size: 1.2em;
+    color: #333;
+} */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product-item {
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-item a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Ensure the text color inherits the parent (white) */
+}
+
+.product-item a:hover {
+    color: inherit; /* Keep the same color on hover */
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    color: #ff69b4; /* Pink color for product name */
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.product-item span {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+}
+
+.product-item button {
+    background-color: #ff69b4; /* Pink */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.product-item button:hover {
+    background-color: #ff3366; /* Darker pink */
+}
+
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-controls button {
+    background-color: #444;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.quantity-controls button:hover {
+    background-color: #ff3366; /* Darker pink */
+    /* transition: all 0.3s ease; */
+}
+
+.quantity-controls span {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(252, 130, 193);
+}

@@ -1,0 +1,27 @@
+.admin-sidebar {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 0px 10px rgba(255, 64, 129, 0.3);
+}
+
+.admin-sidebar h3 {
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.admin-sidebar .list-group-item {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+.admin-sidebar .list-group-item:hover {
+    background-color: #ff4081;
+}

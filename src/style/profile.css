@@ -1,0 +1,204 @@
+/* .profile-page{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ffd8b1;
+    border-radius: 10px;
+}
+
+.profile-page h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.profile-page h3{
+    font-size: 30px;
+}
+.profile-page p{
+    margin-bottom: 10px;
+}
+.profile-page strong{
+    color: #f68b1e;
+    font-size: 20px;
+}
+.profile-page ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile-page li{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.profile-page li:hover{
+    background-color: #f0f0f0;
+}
+.profile-page li img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.profile-page li div{
+    flex-grow: 1;
+}
+
+.profile-page li h4{
+    margin-bottom: 5px;
+    font-size: 1.3em;
+}
+
+.profile-page li p{
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.profile-button{
+    background-color: #f68b1e;
+    padding: 13px;
+    font-weight: 700;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0px;
+} 
+
+.profile-button:hover{
+    background-color: #86490d;
+}
+.error-message{
+    color: red;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+} */
+ /* General Layout */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* White background */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Two Column Layout */
+.profile-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 20px;
+}
+
+/* Left Section (Personal Details) */
+.profile-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+}
+
+/* Profile Card */
+.profile-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 64, 129, 0.4);
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #ff4081;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Right Section (Address & Orders) */
+.profile-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Section Card (Address & Orders) */
+.section-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 64, 129, 0.2);
+}
+
+/* Button Styling */
+.btn-outline-pink {
+    border: 2px solid #ff4081;
+    color: #ff4081;
+    background: transparent;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-pink:hover {
+    background: #ff4081;
+    color: white;
+}
+
+/* Order List */
+.order-list {
+    list-style: none;
+    padding: 0;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff4081;
+    gap: 15px;
+}
+
+.order-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #ff4081;
+}
+
+.order-details {
+    flex-grow: 1;
+}
+
+/* Pink Text */
+.text-pink {
+    color: #ff4081 !important;
+}
+
+/* Loading Spinner */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
