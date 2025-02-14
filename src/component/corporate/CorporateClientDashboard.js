@@ -10,30 +10,30 @@ const CorporateClientDashboard = () => {
     const [corporateClientId, setCorporateClientId] = useState(1); // Assume the corporate client ID is available
     const navigate = useNavigate();
 
-    useEffect(() => {
-        const fetchEmployees = async () => {
-            try {
-                const response = await ApiService.getEmployeesByCorporateClient(corporateClientId);
-                setEmployees(response); // Ensure ApiService returns a list of employees
-            } catch (error) {
-                console.error('Error fetching employees:', error);
-            }
-        };
+    // useEffect(() => {
+    //     const fetchEmployees = async () => {
+    //         try {
+    //             const response = await ApiService.getEmployeesByCorporateClient(corporateClientId);
+    //             setEmployees(response); // Ensure ApiService returns a list of employees
+    //         } catch (error) {
+    //             console.error('Error fetching employees:', error);
+    //         }
+    //     };
 
-        fetchEmployees();
-    }, [corporateClientId]);
+    //     fetchEmployees();
+    // }, [corporateClientId]);
 
     const handleAddEmployee = async (e) => {
         e.preventDefault();
         const employeeData = { name, email, birthDate };
 
         try {
-            await ApiService.addEmployee(corporateClientId, employeeData); // Call the API to add employee
+            await ApiService.addEmployee(corporateClientId, employeeData); 
             alert('Employee added successfully!');
             setName('');
             setEmail('');
             setBirthDate('');
-            // fetchEmployees(); // Re-fetch employees to update the list
+            // fetchEmployees(); 
         } catch (error) {
             console.error('Error adding employee:', error);
             alert('Failed to add employee.');
@@ -44,7 +44,7 @@ const CorporateClientDashboard = () => {
         <div className="container">
             <h1>Corporate Client Dashboard</h1>
 
-            {/* Employee List */}
+            {/* Employee List
             <h2>Employees</h2>
             <table className="table table-striped">
                 <thead>
@@ -67,7 +67,7 @@ const CorporateClientDashboard = () => {
                         ))
                     )}
                 </tbody>
-            </table>
+            </table> */}
 
             {/* Add Employee Form */}
             <h3>Add New Employee</h3>

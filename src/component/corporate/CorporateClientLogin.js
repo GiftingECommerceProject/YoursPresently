@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ApiService from '../../service/ApiService'; // Import ApiService
+import ApiService from '../../service/ApiService'; 
 
 const CorporateClientLogin = () => {
   const [email, setEmail] = useState('');
@@ -15,8 +15,8 @@ const CorporateClientLogin = () => {
     try {
       const response = await ApiService.loginCorporateUser(loginDetails);
       if (response) {
-        localStorage.setItem('role', 'CORPORATE'); // You may adjust this based on your needs
-        navigate('/corporate-dashboard'); // Redirect to dashboard after successful login
+        localStorage.setItem('role', 'CORPORATE'); 
+        navigate('/corporate-dashboard'); 
       }
     } catch (error) {
       setErrorMessage('Invalid credentials. Please try again.');
